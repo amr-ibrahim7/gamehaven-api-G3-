@@ -1,18 +1,16 @@
-import dotenv from 'dotenv';
-import express from 'express';
-import connectToDB from './DB/dbConnection.js';
+import dotenv from "dotenv";
+import express from "express";
+import connectDB from "./DB/dbConnection.js";
 
 dotenv.config();
 
 const app = express();
 
+connectDB();
 
-connectToDB();
-
-app.get('/', (req, res) => {
-  res.send('backend is working!');
+app.get("/", (req, res) => {
+  res.send("backend is working!");
 });
-
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
