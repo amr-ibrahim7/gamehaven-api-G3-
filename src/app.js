@@ -5,6 +5,7 @@ import connectDB from "./DB/dbConnection.js";
 import errorHandler from "./middleware/errorHandler.js";
 import gameRoutes from "./routes/game.routes.js";
 import userRoutes from "./routes/user.routes.js";
+import cartRoutes from "./routes/cart.routes.js";
 
 dotenv.config();
 
@@ -18,6 +19,8 @@ app.use(morgan("dev"));
 
 app.use("/api/users", userRoutes);
 app.use("/api/games", gameRoutes);
+app.use("/api/cart", cartRoutes);
+
 app.get("/", (req, res) => {
   res.send("backend is working!");
 });
