@@ -1,5 +1,6 @@
 import User from "../models/userModel.js";
 import generateToken from "../utils/generateToken.js";
+import { getUserOrdersService } from "./order.service.js";
 
 const registerUser = async (data) => {
   const existing = await User.findOne({ email: data.email });
@@ -47,9 +48,40 @@ const getUserProfile = async (userId) => {
   return { user };
 };
 
-// const getUserOrderHistory = async (userId) => {
+const getUserOrderHistory = async (userId) => {
+  return await getUserOrdersService(userId);
+};
 
-//   return [];
-// };
+const updateUserByAdmin = async (userId, data) => {
+  const user = await User.findById(userId);
+  if (!user) {
+    throw new Error("User not found");
+  }
 
-export { getUserProfile, loginUser, registerUser };
+  if (data.name) {
+    user.name = data.name;
+  }
+  if (data.email && data.email !== user.email) {
+    const existing = await User.findOne({ email: data.email });
+    if (existing) throw new Error("Email already in use by another user");
+    user.email = data.email;
+  }
+  if (
+    data.role &&
+    ["user", "admin"].includes(data.role) &&
+    data.role !== user.role
+  ) {
+    user.role = data.role;
+  }
+
+  const updatedUser = await user.save();
+  return updatedUser.toObject();
+};
+
+export {
+  getUserOrderHistory,
+  getUserProfile,
+  loginUser,
+  registerUser,
+  updateUserByAdmin,
+};

@@ -1,15 +1,46 @@
-/*
-orderItem schema:
-game: id to the game that was ordered (ref Game) required (like foreign key)
-quantity: number required
-price: number required (price of the game at the time of purchase)
+import mongoose, { Types } from "mongoose";
 
-orderSchema:
-user: id to the user who placed the order (ref User) required (like foreign key)
-items: [orderItem schema] => the schema defined above for each item in the order
-totalPrice: Number required
-status: String (enum: ['pending', 'completed', 'cancelled']) default: 'pending'
-orderedAt: Date (default: current date/time)
+const orderItemSchema = new mongoose.Schema({
+  game: {
+    type: Types.ObjectId,
+    ref: "Game",
+    required: true,
+  },
+  quantity: {
+    type: Number,
+    required: true,
+    min: 1,
+  },
+  price: {
+    type: Number,
+    required: true,
+    min: 0,
+  },
+});
 
+const orderSchema = new mongoose.Schema({
+  user: {
+    type: Types.ObjectId,
+    ref: "User",
+    required: true,
+  },
+  items: [orderItemSchema],
+  totalPrice: {
+    type: Number,
+    required: true,
+    min: 0,
+  },
+  status: {
+    type: String,
+    enum: ["pending", "completed", "cancelled"],
+    default: "pending",
+  },
+  orderedAt: {
+    type: Date,
+    default: Date.now,
+  },
+});
 
-*/
+const Order = mongoose.model("Order", orderSchema);
+
+export default Order;
