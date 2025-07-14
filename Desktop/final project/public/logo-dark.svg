@@ -1,0 +1,30 @@
+<svg width="186" height="84" viewBox="12 23 186 52" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for the icon -->
+  <circle cx="50" cy="50" r="35" fill="#5ea500" opacity="0.1"/>
+  
+  <!-- Code brackets -->
+  <path d="M25 35 L15 50 L25 65" stroke="#5ea500" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M75 35 L85 50 L75 65" stroke="#5ea500" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Connection nodes -->
+  <circle cx="35" cy="40" r="3" fill="#5ea500"/>
+  <circle cx="50" cy="50" r="4" fill="#5ea500"/>
+  <circle cx="65" cy="40" r="3" fill="#5ea500"/>
+  <circle cx="50" cy="30" r="2.5" fill="#5ea500"/>
+  <circle cx="50" cy="70" r="2.5" fill="#5ea500"/>
+  
+  <!-- Connection lines -->
+  <line x1="35" y1="40" x2="50" y2="50" stroke="#5ea500" stroke-width="2" opacity="0.7"/>
+  <line x1="50" y1="50" x2="65" y2="40" stroke="#5ea500" stroke-width="2" opacity="0.7"/>
+  <line x1="50" y1="30" x2="50" y2="50" stroke="#5ea500" stroke-width="2" opacity="0.7"/>
+  <line x1="50" y1="50" x2="50" y2="70" stroke="#5ea500" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Text -->
+  <text x="95" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fafafa">Code</text>
+  <text x="95" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#5ea500">Connect</text>
+  
+  <!-- Subtle connecting element between words -->
+  <circle cx="175" cy="55" r="2" fill="#5ea500" opacity="0.6"/>
+  <circle cx="185" cy="55" r="1.5" fill="#5ea500" opacity="0.4"/>
+  <circle cx="193" cy="55" r="1" fill="#5ea500" opacity="0.3"/>
+</svg>

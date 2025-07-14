@@ -1,0 +1,1350 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "text": "أول بوست لينا عن React و Redux Toolkit.",
+      "code": "function improvedSolution() {\n  const result = someFunction();\n  return result.map(item => ({\n    ...item,\n    processed: true\n  }));\n}",
+      "codeLang": "javascript",
+      "createdBy": "mohamed_dev",
+      "createdAt": "2025-07-01T10:00:00.000Z",
+      "updatedAt": "2025-07-13T22:50:40.245Z",
+      "tags": [
+        "react",
+        "redux",
+        "javascript",
+        "typescript"
+      ],
+      "reactions": {
+        "like": 1,
+        "love": 0,
+        "wow": 2,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user2",
+          "username": "sarah_coder",
+          "reaction": "like",
+          "createdAt": "2025-07-13T12:00:00.000Z"
+        },
+        {
+          "userId": "user3",
+          "username": "alex_dev",
+          "reaction": "wow",
+          "createdAt": "2025-07-13T12:05:00.000Z"
+        },
+        {
+          "userId": "user4",
+          "username": "nour_tech",
+          "reaction": "happy",
+          "createdAt": "2025-07-13T12:10:00.000Z"
+        },
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "wow",
+          "createdAt": "2025-07-13T22:53:50.237Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "ازاي تنفذ CRUD باستخدام json-server و Redux Toolkit",
+      "createdBy": "basent_coder",
+      "createdAt": "2025-07-05T15:30:00.000Z",
+      "updatedAt": "2025-07-05T15:30:00.000Z",
+      "tags": [
+        "json-server",
+        "redux-toolkit",
+        "crud"
+      ],
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-13T20:38:30.773Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "مشاركة فيديو عن تحسين أداء React Apps",
+      "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "createdBy": "nourr",
+      "createdAt": "2025-07-10T09:00:00.000Z",
+      "updatedAt": "2025-07-10T09:00:00.000Z",
+      "tags": [
+        "react",
+        "performance",
+        "video"
+      ],
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-13T15:41:00.989Z"
+        }
+      ]
+    },
+    {
+      "id": "5bad",
+      "text": "Test Post!",
+      "code": "",
+      "codeLang": "javascript",
+      "tags": [
+        "dd",
+        "aa"
+      ],
+      "createdBy": "user1",
+      "createdAt": "2025-07-13T21:28:54.343Z",
+      "updatedAt": "2025-07-13T21:28:54.343Z",
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-14T00:00:06.603Z"
+        }
+      ]
+    },
+    {
+      "id": "adfd",
+      "text": "aa",
+      "code": "aa",
+      "codeLang": "javascript",
+      "tags": [
+        "aa",
+        "a"
+      ],
+      "createdBy": "user1",
+      "createdAt": "2025-07-13T22:36:00.074Z",
+      "updatedAt": "2025-07-13T22:36:00.074Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "dislike",
+          "createdAt": "2025-07-13T22:36:05.163Z"
+        }
+      ]
+    },
+    {
+      "id": "post_6",
+      "text": "Just learned about TypeScript decorators! They're incredibly powerful for creating clean, reusable code. Here's a simple example:",
+      "code": "@Component({\n  selector: 'app-user',\n  template: '<div>{{ user.name }}</div>'\n})\nexport class UserComponent {\n  @Input() user: User;\n  \n  @HostListener('click')\n  onClick() {\n    console.log('User clicked!');\n  }\n}",
+      "codeLang": "typescript",
+      "createdBy": "sarah_coder",
+      "createdAt": "2025-07-13T08:30:00.000Z",
+      "updatedAt": "2025-07-13T08:30:00.000Z",
+      "tags": [
+        "typescript",
+        "decorators",
+        "angular",
+        "frontend"
+      ],
+      "reactions": {
+        "like": 3,
+        "love": 3,
+        "wow": 1,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user2",
+          "username": "mike_developer",
+          "reaction": "like",
+          "createdAt": "2025-07-14T09:00:00.000Z"
+        },
+        {
+          "userId": "user3",
+          "username": "lisa_coder",
+          "reaction": "love",
+          "createdAt": "2025-07-14T09:15:00.000Z"
+        },
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-14T09:33:28.193Z"
+        }
+      ]
+    },
+    {
+      "id": "post_7",
+      "text": "Check out this amazing sunset from my coding session! Sometimes you need to step back and appreciate the beauty around you while building amazing things.",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "createdBy": "alex_dev",
+      "createdAt": "2025-07-13T19:45:00.000Z",
+      "updatedAt": "2025-07-13T19:45:00.000Z",
+      "tags": [
+        "motivation",
+        "coding-life",
+        "sunset"
+      ],
+      "reactions": {
+        "like": 5,
+        "love": 8,
+        "wow": 2,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 3
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-14T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_8",
+      "text": "Python list comprehensions are pure magic! Here's a quick comparison:",
+      "code": "# Traditional way\nsquares = []\nfor i in range(10):\n    if i % 2 == 0:\n        squares.append(i ** 2)\n\n# List comprehension - so clean!\nsquares = [i ** 2 for i in range(10) if i % 2 == 0]\n\nprint(squares)  # [0, 4, 16, 36, 64]",
+      "codeLang": "python",
+      "createdBy": "python_master",
+      "createdAt": "2025-07-12T11:20:00.000Z",
+      "updatedAt": "2025-07-12T11:20:00.000Z",
+      "tags": [
+        "python",
+        "list-comprehension",
+        "clean-code"
+      ],
+      "reactions": {
+        "like": 4,
+        "love": 1,
+        "wow": 0,
+        "funny": 1,
+        "dislike": 0,
+        "happy": 2
+      },
+      "userReactions": [
+        {
+          "userId": "user4",
+          "username": "nour_tech",
+          "reaction": "like",
+          "createdAt": "2025-07-12T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_9",
+      "text": "Just finished building a REST API with Node.js and Express! Here's a quick tutorial on middleware:",
+      "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "createdBy": "node_ninja",
+      "createdAt": "2025-07-12T16:10:00.000Z",
+      "updatedAt": "2025-07-12T16:10:00.000Z",
+      "tags": [
+        "nodejs",
+        "express",
+        "api",
+        "backend"
+      ],
+      "reactions": {
+        "like": 2,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user5",
+          "username": "backend_dev",
+          "reaction": "like",
+          "createdAt": "2025-07-12T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_10",
+      "text": "CSS Grid vs Flexbox - when to use which? Here's my take:",
+      "code": "/* Use Flexbox for 1D layouts */\n.navbar {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n/* Use Grid for 2D layouts */\n.dashboard {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n  gap: 1rem;\n}",
+      "codeLang": "css",
+      "createdBy": "css_wizard",
+      "createdAt": "2025-07-11T09:30:00.000Z",
+      "updatedAt": "2025-07-11T09:30:00.000Z",
+      "tags": [
+        "css",
+        "grid",
+        "flexbox",
+        "layout"
+      ],
+      "reactions": {
+        "like": 6,
+        "love": 2,
+        "wow": 1,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user6",
+          "username": "frontend_guru",
+          "reaction": "like",
+          "createdAt": "2025-07-11T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_11",
+      "text": "React hooks are game-changing! Here's a custom hook for managing form state:",
+      "code": "import { useState, useCallback } from 'react';\n\nconst useForm = (initialState) => {\n  const [values, setValues] = useState(initialState);\n  \n  const handleChange = useCallback((e) => {\n    const { name, value } = e.target;\n    setValues(prev => ({ ...prev, [name]: value }));\n  }, []);\n  \n  const reset = useCallback(() => {\n    setValues(initialState);\n  }, [initialState]);\n  \n  return { values, handleChange, reset };\n};",
+      "codeLang": "javascript",
+      "createdBy": "react_expert",
+      "createdAt": "2025-07-11T14:15:00.000Z",
+      "updatedAt": "2025-07-11T14:15:00.000Z",
+      "tags": [
+        "react",
+        "hooks",
+        "custom-hooks",
+        "forms"
+      ],
+      "reactions": {
+        "like": 7,
+        "love": 4,
+        "wow": 2,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user7",
+          "username": "hook_master",
+          "reaction": "love",
+          "createdAt": "2025-07-11T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_12",
+      "text": "Database optimization tips! Always index your foreign keys and frequently queried columns.",
+      "createdBy": "db_optimizer",
+      "createdAt": "2025-07-10T07:45:00.000Z",
+      "updatedAt": "2025-07-10T07:45:00.000Z",
+      "tags": [
+        "database",
+        "optimization",
+        "sql",
+        "performance"
+      ],
+      "reactions": {
+        "like": 3,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 2
+      },
+      "userReactions": [
+        {
+          "userId": "user8",
+          "username": "data_engineer",
+          "reaction": "like",
+          "createdAt": "2025-07-10T08:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_13",
+      "text": "Git workflow that changed my life:",
+      "code": "# Feature branch workflow\ngit checkout -b feature/amazing-feature\ngit add .\ngit commit -m \"feat: add amazing feature\"\ngit push origin feature/amazing-feature\n# Create PR, get review, merge!",
+      "codeLang": "bash",
+      "createdBy": "git_master",
+      "createdAt": "2025-07-10T12:20:00.000Z",
+      "updatedAt": "2025-07-10T12:20:00.000Z",
+      "tags": [
+        "git",
+        "workflow",
+        "version-control"
+      ],
+      "reactions": {
+        "like": 5,
+        "love": 2,
+        "wow": 1,
+        "funny": 1,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user9",
+          "username": "version_control",
+          "reaction": "like",
+          "createdAt": "2025-07-10T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_14",
+      "text": "Docker containers are amazing for development! Here's a simple Dockerfile:",
+      "code": "FROM node:18-alpine\nWORKDIR /app\nCOPY package*.json ./\nRUN npm install\nCOPY . .\nEXPOSE 3000\nCMD [\"npm\", \"start\"]",
+      "codeLang": "dockerfile",
+      "createdBy": "container_expert",
+      "createdAt": "2025-07-13T10:30:00.000Z",
+      "updatedAt": "2025-07-13T10:30:00.000Z",
+      "tags": [
+        "docker",
+        "containers",
+        "devops"
+      ],
+      "reactions": {
+        "like": 4,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user10",
+          "username": "devops_guru",
+          "reaction": "like",
+          "createdAt": "2025-07-13T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post_15",
+      "text": "Testing is crucial! Here's a Jest test example:",
+      "code": "describe('Calculator', () => {\n  test('adds two numbers correctly', () => {\n    expect(add(2, 3)).toBe(5);\n  });\n  \n  test('handles negative numbers', () => {\n    expect(add(-1, 1)).toBe(0);\n  });\n});",
+      "codeLang": "javascript",
+      "createdBy": "test_driven",
+      "createdAt": "2025-07-12T15:45:00.000Z",
+      "updatedAt": "2025-07-12T15:45:00.000Z",
+      "tags": [
+        "testing",
+        "jest",
+        "tdd",
+        "quality"
+      ],
+      "reactions": {
+        "like": 3,
+        "love": 2,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user11",
+          "username": "qa_engineer",
+          "reaction": "love",
+          "createdAt": "2025-07-18T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e5a8",
+      "text": "Test",
+      "code": "Test",
+      "codeLang": "javascript",
+      "tags": [
+        "Test",
+        "A",
+        "AA"
+      ],
+      "createdBy": "user1",
+      "createdAt": "2025-07-14T00:04:51.722Z",
+      "updatedAt": "2025-07-14T00:04:51.722Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0
+      },
+      "userReactions": []
+    },
+    {
+      "id": "6ced",
+      "text": "Test2",
+      "tags": [
+        "Test2",
+        "Test"
+      ],
+      "createdBy": "user1",
+      "createdAt": "2025-07-14T00:08:42.295Z",
+      "updatedAt": "2025-07-14T00:28:27.474Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0
+      },
+      "userReactions": [],
+      "code": "Test=2",
+      "codeLang": "javascript"
+    },
+    {
+      "id": "f0be",
+      "text": "Code",
+      "code": "Code",
+      "codeLang": "javascript",
+      "tags": [
+        "code"
+      ],
+      "createdBy": "user1",
+      "createdAt": "2025-07-14T00:28:42.320Z",
+      "updatedAt": "2025-07-14T00:28:42.320Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0
+      },
+      "userReactions": []
+    },
+    {
+      "id": "e57c",
+      "text": "Test",
+      "tags": [],
+      "createdBy": "user1",
+      "createdAt": "2025-07-14T00:40:35.952Z",
+      "updatedAt": "2025-07-14T00:40:35.952Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0
+      },
+      "userReactions": []
+    },
+    {
+      "id": "764d",
+      "text": "Test",
+      "code": "code=1",
+      "codeLang": "typescript",
+      "tags": [],
+      "createdBy": "user1",
+      "createdAt": "2025-07-14T00:44:21.272Z",
+      "updatedAt": "2025-07-14T00:44:59.853Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 1,
+        "dislike": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "funny",
+          "createdAt": "2025-07-14T00:44:25.613Z"
+        }
+      ]
+    },
+    {
+      "id": "beca",
+      "text": "Test",
+      "tags": [],
+      "createdBy": "user1",
+      "createdAt": "2025-07-14T09:49:55.665Z",
+      "updatedAt": "2025-07-14T09:49:55.665Z",
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-14T09:52:53.651Z"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "1",
+      "user": {
+        "name": "Mohamed",
+        "username": "mohamed_dev"
+      },
+      "content": {
+        "text": "This is a great solution! Here's how I would improve it:",
+        "code": {
+          "code": "function improvedSolution() {\n  const result = someFunction();\n  return result.map(item => ({\n    ...item,\n    processed: false\n  }));\n}",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2024-01-15T10:30:00Z",
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 1,
+        "dislike": 1,
+        "happy": 1
+      },
+      "userReactions": [
+        {
+          "userId": "user5",
+          "username": "mike_developer",
+          "reaction": "funny",
+          "createdAt": "2025-07-13T13:00:00.000Z"
+        },
+        {
+          "userId": "user6",
+          "username": "lisa_coder",
+          "reaction": "love",
+          "createdAt": "2025-07-13T13:05:00.000Z"
+        },
+        {
+          "userId": "user7",
+          "username": "john_tech",
+          "reaction": "dislike",
+          "createdAt": "2025-07-13T13:10:00.000Z"
+        },
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "happy",
+          "createdAt": "2025-07-13T22:53:32.602Z"
+        }
+      ],
+      "replies": [
+        {
+          "postId": "1",
+          "parentCommentId": "1",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@mohamed_dev"
+          },
+          "createdAt": "2025-07-13T22:52:15.758Z",
+          "replies": [],
+          "id": 1752447135758,
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": []
+        },
+        {
+          "postId": "1",
+          "parentCommentId": "1",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@mohamed_dev Test"
+          },
+          "createdAt": "2025-07-13T20:08:39.812Z",
+          "replies": [],
+          "id": 1752437319812,
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": []
+        },
+        {
+          "postId": "1",
+          "parentCommentId": "1",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@mohamed_dev Test"
+          },
+          "createdAt": "2025-07-13T20:08:36.966Z",
+          "replies": [],
+          "id": 1752437316966,
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": []
+        },
+        {
+          "postId": "1",
+          "parentCommentId": "1",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@mohamed_dev",
+            "code": {
+              "code": "Test",
+              "language": "javascript"
+            }
+          },
+          "createdAt": "2025-07-13T16:48:35.862Z",
+          "replies": [],
+          "id": 1752425315862,
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": []
+        },
+        {
+          "postId": "1",
+          "parentCommentId": "1",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@mohamed_dev"
+          },
+          "createdAt": "2025-07-13T15:11:20.473Z",
+          "replies": [],
+          "id": 1752419480473,
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": []
+        },
+        {
+          "id": "reply_2",
+          "parentCommentId": "1",
+          "postId": "1",
+          "user": {
+            "name": "Sarah",
+            "username": "sarah_coder"
+          },
+          "content": {
+            "text": "Nice improvement! I like how you used the spread operator.",
+            "code": {
+              "code": "// Even better with TypeScript\ntype ProcessedItem = Item & { processed: boolean };\n\nfunction improvedSolution(): ProcessedItem[] {\n  return someFunction().map(item => ({\n    ...item,\n    processed: false\n  }));\n}",
+              "language": "typescript"
+            }
+          },
+          "createdAt": "2024-01-15T11:00:00Z",
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 1,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 1
+          },
+          "userReactions": [
+            {
+              "userId": "user8",
+              "username": "emma_dev",
+              "reaction": "wow",
+              "createdAt": "2025-07-13T14:00:00.000Z"
+            },
+            {
+              "userId": "user9",
+              "username": "david_coder",
+              "reaction": "happy",
+              "createdAt": "2025-07-13T14:05:00.000Z"
+            }
+          ],
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "postId": "1",
+      "user": {
+        "name": "Alex",
+        "username": "alex_developer"
+      },
+      "content": {
+        "text": "I have a question about the performance. Would this approach scale well?",
+        "code": {
+          "code": "// Current approach\nfor (let i = 0; i < items.length; i++) {\n  processItem(items[i]);\n}\n\n// Would this be better?\nitems.forEach(processItem);",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2024-01-15T12:15:00Z",
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-13T11:30:18.072Z"
+        }
+      ],
+      "replies": []
+    },
+    {
+      "id": "2c77",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "function improvedSolution() {\n  const result = someFunction();\n  return result.map(item => ({\n    ...item,\n    processed: false\n  }));\n}",
+          "language": "typescript"
+        }
+      },
+      "createdAt": "2025-07-13T13:15:52.547Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "b57d",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "a = 5;",
+          "language": "php"
+        }
+      },
+      "createdAt": "2025-07-13T15:39:07.873Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "60ea",
+      "postId": "3",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "oklch(0.65 0.18 133.27)",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2025-07-13T16:36:31.917Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 1,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "wow",
+          "createdAt": "2025-07-14T00:43:03.282Z"
+        }
+      ],
+      "replies": []
+    },
+    {
+      "id": "679a",
+      "postId": "3",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "aaa"
+      },
+      "createdAt": "2025-07-13T16:36:55.654Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "43fa",
+      "postId": "3",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "oklch(0.982 0.018 155.826)",
+          "language": "typescript"
+        }
+      },
+      "createdAt": "2025-07-13T16:37:01.494Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "3fdb",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "ShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\n\nss",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2025-07-13T17:11:11.714Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "d2c8",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "ShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first\nShikiError: Theme `code-dark` not found, you may need to load it first2\n",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2025-07-13T17:11:43.681Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "2dfc",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\n\n",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2025-07-13T18:07:48.388Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "5e8a",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\n\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\n\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\n\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')Error: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')\nError: Cannot read properties of null (reading 'scrollTop')",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2025-07-13T18:24:32.194Z",
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-13T19:11:42.422Z"
+        }
+      ],
+      "replies": []
+    },
+    {
+      "id": "f231",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "AA"
+      },
+      "createdAt": "2025-07-13T18:27:31.701Z",
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-13T20:17:32.421Z"
+        }
+      ],
+      "replies": [
+        {
+          "postId": "1",
+          "parentCommentId": "f231",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@you Test"
+          },
+          "createdAt": "2025-07-13T20:17:39.466Z",
+          "replies": [],
+          "id": 1752437859466,
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": []
+        }
+      ]
+    },
+    {
+      "id": "1882",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "'use client'\n\nimport { useState, useEffect } from 'react'\nimport { useDispatch, useSelector } from 'react-redux'\nimport { RootState, AppDispatch } from '../store/store'\nimport { \n  fetchReactionTypes, \n  addPostReaction, \n  addCommentReaction,\n  ReactionType,\n  UserReaction,\n  Reactions as ReactionsType\n} from '../store/slices/reactionsSlice'\nimport { Button } from './ui/button'\nimport { Badge } from './ui/badge'\nimport { Popover, PopoverContent, PopoverTrigger } from './ui/popover'\nimport { Smile } from 'lucide-react'\n\ninterface ReactionsProps {\n  reactions: ReactionsType\n  userReactions: UserReaction[]\n  onReactionChange?: (reactions: ReactionsType, userReactions: UserReaction[]) => void\n  postId?: string\n  commentId?: string\n  currentUserId?: string\n  currentUsername?: string\n  size?: 'sm' | 'md' | 'lg'\n}\n\nexport default function Reactions({\n  reactions,\n  userReactions,\n  onReactionChange,\n  postId,\n  commentId,\n  currentUserId = 'user1', // Default for demo\n  currentUsername = 'you', // Default for demo\n  size = 'md'\n}: ReactionsProps) {\n  const dispatch = useDispatch<AppDispatch>()\n  const { reactionTypes, loading } = useSelector((state: RootState) => state.reactions)\n  const [isOpen, setIsOpen] = useState(false)\n\n  // Fetch reaction types on mount\n  useEffect(() => {\n    if (reactionTypes.length === 0) {\n      dispatch(fetchReactionTypes())\n    }\n  }, [dispatch, reactionTypes.length])\n\n  // Get current user's reaction\n  const currentUserReaction = userReactions.find(ur => ur.userId === currentUserId)\n\n  // Handle reaction click\n  const handleReaction = async (reactionType: string) => {\n    if (!currentUserId) return\n\n    try {\n      if (postId) {\n        await dispatch(addPostReaction({\n          postId,\n          userId: currentUserId,\n          username: currentUsername,\n          reaction: reactionType\n        })).unwrap()\n      } else if (commentId) {\n        await dispatch(addCommentReaction({\n          commentId,\n          userId: currentUserId,\n          username: currentUsername,\n          reaction: reactionType\n        })).unwrap()\n      }\n\n      // Call callback if provided\n      if (onReactionChange) {\n        // This would need to be updated with the new reactions from the API\n        // For now, we'll just close the popover\n        setIsOpen(false)\n      }\n    } catch (error) {\n      console.error('Failed to add reaction:', error)\n    }\n  }\n\n  // Get total reactions count\n  const totalReactions = Object.values(reactions).reduce((sum, count) => sum + count, 0)\n\n  // Get size classes\n  const getSizeClasses = () => {\n    switch (size) {\n      case 'sm':\n        return 'text-xs'\n      case 'lg':\n        return 'text-base'\n      default:\n        return 'text-sm'\n    }\n  }\n\n  const getButtonSize = () => {\n    switch (size) {\n      case 'sm':\n        return 'h-6 w-6'\n      case 'lg':\n        return 'h-10 w-10'\n      default:\n        return 'h-8 w-8'\n    }\n  }\n\n  if (loading) {\n    return <div className=\"animate-pulse\">Loading reactions...</div>\n  }\n\n  return (\n    <div className=\"flex items-center gap-2\">\n      {/* Reaction Button */}\n      <Popover open={isOpen} onOpenChange={setIsOpen}>\n        <PopoverTrigger asChild>\n          <Button\n            variant=\"ghost\"\n            size=\"sm\"\n            className={`${getButtonSize()} p-0 hover:bg-muted/50`}\n          >\n            <Smile className=\"h-4 w-4\" />\n          </Button>\n        </PopoverTrigger>\n        <PopoverContent className=\"w-auto p-2\" align=\"start\">\n          <div className=\"flex gap-1\">\n            {reactionTypes.map((reactionType) => (\n              <Button\n                key={reactionType.id}\n                variant=\"ghost\"\n                size=\"sm\"\n                className={`h-8 w-8 p-0 hover:scale-110 transition-transform ${\n                  currentUserReaction?.reaction === reactionType.id \n                    ? 'bg-muted' \n                    : ''\n                }`}\n                onClick={() => handleReaction(reactionType.id)}\n                title={reactionType.name}\n              >\n                <span className=\"text-lg\">{reactionType.icon}</span>\n              </Button>\n            ))}\n          </div>\n        </PopoverContent>\n      </Popover>\n\n      {/* Reaction Counts */}\n      {totalReactions > 0 && (\n        <div className=\"flex items-center gap-1\">\n          {reactionTypes.map((reactionType) => {\n            const count = reactions[reactionType.id as keyof ReactionsType] || 0\n            if (count === 0) return null\n\n            return (\n              <Badge\n                key={reactionType.id}\n                variant=\"secondary\"\n                className={`${getSizeClasses()} px-1.5 py-0.5 cursor-pointer hover:bg-muted/80 transition-colors`}\n                onClick={() => handleReaction(reactionType.id)}\n                title={`${count} ${reactionType.name}${count > 1 ? 's' : ''}`}\n              >\n                <span className=\"mr-1\">{reactionType.icon}</span>\n                {count}\n              </Badge>\n            )\n          })}\n        </div>\n      )}\n\n      {/* Current User's Reaction Indicator */}\n      {currentUserReaction && (\n        <Badge\n          variant=\"outline\"\n          className={`${getSizeClasses()} px-1.5 py-0.5`}\n        >\n          You reacted with {reactionTypes.find(rt => rt.id === currentUserReaction.reaction)?.icon}\n        </Badge>\n      )}\n    </div>\n  )\n} ",
+          "language": "typescript"
+        }
+      },
+      "createdAt": "2025-07-13T18:58:05.769Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "5d0f",
+      "postId": "1",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "",
+        "code": {
+          "code": "<Card>\n  <CardHeader>\n    <CardTitle>Card Title</CardTitle>\n    <CardDescription>Card Description</CardDescription>\n    <CardAction>Card Action</CardAction>\n  </CardHeader>\n  <CardContent>\n    <p>Card Content</p>\n  </CardContent>\n  <CardFooter>\n    <p>Card Footer</p>\n  </CardFooter>\n</Card>",
+          "language": "jsx"
+        }
+      },
+      "createdAt": "2025-07-13T21:21:24.295Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": []
+    },
+    {
+      "id": "748d",
+      "postId": "post_9",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "a"
+      },
+      "createdAt": "2025-07-13T23:57:19.132Z",
+      "reactions": {
+        "like": 0,
+        "love": 0,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [],
+      "replies": [
+        {
+          "postId": "post_9",
+          "parentCommentId": "748d",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@you Test"
+          },
+          "createdAt": "2025-07-13T23:57:29.307Z",
+          "replies": [],
+          "id": 1752451049307,
+          "reactions": {
+            "like": 0,
+            "love": 0,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": []
+        }
+      ]
+    },
+    {
+      "id": "54b6",
+      "postId": "764d",
+      "user": {
+        "name": "You",
+        "username": "you"
+      },
+      "content": {
+        "text": "Test",
+        "code": {
+          "code": "Test",
+          "language": "javascript"
+        }
+      },
+      "createdAt": "2025-07-14T00:44:30.015Z",
+      "reactions": {
+        "like": 0,
+        "love": 1,
+        "wow": 0,
+        "funny": 0,
+        "dislike": 0,
+        "happy": 0
+      },
+      "userReactions": [
+        {
+          "userId": "user1",
+          "username": "you",
+          "reaction": "love",
+          "createdAt": "2025-07-14T00:44:32.606Z"
+        }
+      ],
+      "replies": [
+        {
+          "postId": "764d",
+          "parentCommentId": "54b6",
+          "user": {
+            "name": "You",
+            "username": "you"
+          },
+          "content": {
+            "text": "@you"
+          },
+          "createdAt": "2025-07-14T00:44:35.801Z",
+          "replies": [],
+          "id": 1752453875801,
+          "reactions": {
+            "like": 0,
+            "love": 1,
+            "wow": 0,
+            "funny": 0,
+            "dislike": 0,
+            "happy": 0
+          },
+          "userReactions": [
+            {
+              "userId": "user1",
+              "username": "you",
+              "reaction": "love",
+              "createdAt": "2025-07-14T09:33:09.038Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reactionTypes": [
+    {
+      "id": "like",
+      "name": "Like",
+      "icon": "👍",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "icon": "❤️",
+      "color": "#ef4444"
+    },
+    {
+      "id": "wow",
+      "name": "Wow",
+      "icon": "😮",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "funny",
+      "name": "Funny",
+      "icon": "😂",
+      "color": "#10b981"
+    },
+    {
+      "id": "dislike",
+      "name": "Dislike",
+      "icon": "👎",
+      "color": "#6b7280"
+    },
+    {
+      "id": "happy",
+      "name": "Happy",
+      "icon": "😊",
+      "color": "#fbbf24"
+    }
+  ]
+}

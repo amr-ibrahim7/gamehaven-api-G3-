@@ -1,0 +1,20 @@
+{
+  "welcome": "Welcome to my app",
+  "title": "My Next.js App",
+  "description": "This is a simple Next.js application with internationalization support.",
+  "admin": "Admin",
+  "language": {
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "edit": "Edit",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "save": "Save",
+  "confirm": "Confirm",
+  "close": "Close",
+  "logout": "Logout",
+  "report": "Report",
+  "copy": "Copy",
+  "copied": "Copied"
+}
